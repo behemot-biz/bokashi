@@ -27,6 +27,16 @@ h1, h2, h3 {
     color: #582f0e;
     padding-bottom: 10px;
 }
+.button-white {
+    background-color:#ffffff;
+    color: #582f0e;
+    text-decoration: none;
+    border: 1px solid #582f0e; 
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
 /* header */
 header {
     background-color: #ffffff;
@@ -83,4 +93,75 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
     color:#582f0e;
+}
+/* Main section */
+main {
+    /* make main element fill all surplus space to push footer down */
+    flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 47px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
+    /* background-color: #fffbf6; */
+    padding-bottom: 20px;
+}
+#hero {
+    height: 70vh;
+    width: 100%;
+    background: url(../images/rhubarb-cabage.webp) no-repeat left bottom / cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    position: absolute;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.95);
+     /* rgba(255, 255, 255, 0.85); */
+    padding: 20px 20px 50px 20px;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    padding-bottom: 10px;
+    /* color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.46); */
+}
+.hero-text h3 {
+    margin-bottom: 40px;
+}
+
+#intro-bokashi {
+    margin: 20px;
+
+}
+
+.intro {
+    padding:15px;
+}
+.intro h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 20px;   
+}
+.testimonials {
+    margin: 0;
+    padding:15px;
+    background-color: #DAE5D2;
+}
+.testimonials h2 {
+    color: #072B07;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 20px;   
+    
 }
