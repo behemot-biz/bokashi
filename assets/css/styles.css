@@ -17,7 +17,7 @@ body {
     color: #3a3a3a;
     font-family: "Source Sans 3", sans-serif;
     font-style: normal;
-    /* font-family: 'lato', sans-serif; */
+
 }
 h1, h2, h3 {
     font-family: "Playfair Display", serif;
@@ -148,10 +148,14 @@ main {
 .intro {
     padding:15px;
 }
-.intro h1 {
+.intro h1,h2,h3 {
     font-size: 1.5rem;
     text-align: center;
     padding-bottom: 20px;   
+}
+
+.intro h3 {
+    font-size: 1.25rem;
 }
 .testimonials {
     margin: 0;
@@ -163,6 +167,26 @@ main {
     font-size: 1.5rem;
     text-align: center;
     padding: 20px;   
+}
+/* Guide page */
+#guide-heading-image {
+    background: url(../images/garlic-watering-1200.webp) no-repeat center bottom / cover;
+    height: 325px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.guide {
+    margin: 20px;
+    padding:15px;
+}
+.guide p { 
+    padding-bottom: 15px;
+}
+
+.guide-image {
+
+}
+.guide-text {
     
 }
 
