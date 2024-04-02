@@ -165,3 +165,23 @@ main {
     padding: 20px;   
     
 }
+
+/* Footer */
+#social-networks {
+    /* margin-top: 20px; */
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color:  #582f0e; 
+    color: #ffffff;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+
+}
+
+
