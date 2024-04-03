@@ -197,17 +197,21 @@ main {
     display: grid;
     gap: 1.5rem;
     padding-block: 0 2rem;
-    width: min(95%, 70rem);
+    /* width: min(95%, 70rem); */
     margin-inline: auto;
 }
 .guide-image, .guide-text {
     margin: auto;
 }
-.guide-text {
+/* .guide-text {
     padding: 0 20px;
 }
 .guide-text p {
     padding-bottom: 10px;
+} */
+.guide-image img {
+    /* max-width: 160px; */
+    width: -moz-available;
 }
 
 /* Footer */
@@ -231,27 +235,75 @@ main {
 
 /* Media query for large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {}
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+       /* Header */
+       nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    #menu {
+        display: flex;
+    }
+    #menu > li {
+        padding-right: 1rem;
+    }
+    .nav-toggle-label {
+        display: none;
+    }
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+    /* Guide grid  */
+       /* Setting up a two column grid */
+    .guide-grid {
+        grid-template-columns: 1fr 3fr;
+        row-gap: 3rem;
+        column-gap: 1.5rem;
+    }
+        .guide-text {
+        margin: 0;
+    }
+        .guide-text {
+        /* margin: auto; */
+        padding: 0;
+    }
+}
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-
-    /* Guide.html  */
-    /* Setting up a two column grid */
-    .guide-grid {
-        /* grid-template-columns: repeat(2); */
-        grid-template-columns: 1fr 3fr;
-        /* 35% 60%; */
-        /* grid-template-rows: auto auto; */
-            }
-            .guide-text {
-            margin: 0;
-        }
-            .guide-text {
-            /* margin: auto; */
-            padding: 0;
-        }
+     /* Header */
+     #menu a:hover {
+        text-decoration:underline;
+    }  
 }
 
 /* Large devices (laptops and desktops,1200px and up) */
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+    .main-content h1, h2{
+        font-size: 2rem;
+    }
+    .guide-grid {
+        /* gap: 1.5rem; */
+        grid-template-columns: 0.5fr 2fr 0.5fr 2fr;
+        /* grid-template-columns: 15% 30% 15% 30%; */
+        
+        grid-template-rows: auto auto;
+        /* column-gap: 2rem; */
+        row-gap: 3rem;
+    }
+    .guide-image {
+        margin: 0;                
+    }
+    .guide-text {
+        margin: 0;
+    }
+    .guide-text {
+        /* margin: auto; */
+        padding: 0;
+    }
+}
 
