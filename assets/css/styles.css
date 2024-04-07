@@ -26,7 +26,8 @@ h1, h2, h3 {
     /* padding-bottom: 10px; */
 }
 .main-content, .main-content-green {
-    margin: 40px;    
+    padding: 40px;   
+
 }
 .main-content h1, h2, h3 {
     padding-bottom: 10px;
@@ -169,20 +170,18 @@ main {
 }
 .testimonials {
     margin: 0;
-    padding:40px;
 }
 .testimonials h2 {
     color: #072B07;
     font-size: 1.5rem;
     text-align: center;
-    /* padding: 20px;    */
 }
+
 /* Guide page */
 #guide-heading-image {
     background: url(../images/garlic-watering-1200.webp) no-repeat center bottom / cover;
     height: 325px;
     width: 100%;
-    margin-bottom: 20px;
 }
 /* .guide {
     margin: 20px;
@@ -210,8 +209,8 @@ main {
     padding-bottom: 10px;
 } */
 .guide-image img {
-    /* max-width: 160px; */
-    width: -moz-available;
+    width: 100%
+    /* width: -moz-available; */
 }
 
 /* Footer */
@@ -236,8 +235,8 @@ main {
 /* Media query for large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {}
 @media screen and (min-width: 768px) {
-       /* Header */
-       nav {
+    /* Header */
+    nav {
         display: block;
         position: relative;
         box-shadow: none;
@@ -283,14 +282,17 @@ main {
 
 /* Large devices (laptops and desktops,1200px and up) */
 @media screen and (min-width: 1200px) {
-    .main-content h1, h2{
+ 
+    .main-content h1, h2 {
         font-size: 2rem;
+    }
+    .main-content, .main-content-green {
+        margin: 0px auto;  
+        max-width: 1200px; 
     }
     .guide-grid {
         /* gap: 1.5rem; */
-        grid-template-columns: 0.5fr 2fr 0.5fr 2fr;
-        /* grid-template-columns: 15% 30% 15% 30%; */
-        
+        grid-template-columns: 1fr 2fr 1fr 2fr;
         grid-template-rows: auto auto;
         /* column-gap: 2rem; */
         row-gap: 3rem;
@@ -304,6 +306,9 @@ main {
     .guide-text {
         /* margin: auto; */
         padding: 0;
+    }
+    .guide-image img {
+        width: 100%; 
     }
 }
 
