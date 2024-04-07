@@ -167,6 +167,7 @@ main {
     margin: 0 20px;
     text-align: center;
 }
+
 .testimonials {
     margin: 0;
 }
@@ -175,6 +176,41 @@ main {
     font-size: 1.5rem;
     text-align: center;
 }
+/* testimonial card layout */
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* grid-template-rows: auto auto; */
+    gap: 1.5rem;
+    padding-block: 1rem 0; 
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 10px;
+}
+.card-image-holder {
+    border-radius: 10px 10px 0 0;
+}
+.card-image {
+    width: 100%; 
+    border-radius: 10px 10px 0 0; 
+    margin: 0 auto;
+}
+.card-text-holder {
+    flex: 1 0 auto;
+    background-color: #ffffff;
+    /* border: aquamarine solid 3px; */
+
+    padding: 15px;
+}
+.card-text-footer {
+    padding: 15px;
+    font-style: italic;
+}
+
 
 /* Guide page */
 #guide-heading-image {
