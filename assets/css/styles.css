@@ -268,7 +268,13 @@ main {
 
 
 /* Media query for large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) {}
+@media screen and (min-width: 576px) {
+    /* testimonial section */
+    .card-image-holder {
+        /* width: 90%; */
+        overflow: hidden;
+    }
+}
 @media screen and (min-width: 768px) {
     /* Header */
     nav {
@@ -306,6 +312,11 @@ main {
         /* margin: auto; */
         padding: 0;
     }
+     /* testimonial section */
+    .testimonial-grid {
+        grid-template-columns: repeat(2, 1fr);
+        padding-block: 2rem 0; 
+    }
 }
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
@@ -313,6 +324,10 @@ main {
      #menu a:hover {
         text-decoration:underline;
     }  
+    /* testimonial section */
+    .testimonial-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 /* Large devices (laptops and desktops,1200px and up) */
