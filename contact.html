@@ -27,24 +27,28 @@
     <main>
         <!-- contact form -->
         <section class="contact">
+            <div class="main-content">
+                <h1>Drop me a line!</h1>
                 <form action="https://formdump.codeinstitute.net" method="POST" class="contact-form">
-                    <h1>Drop me a line!</h1>
-                    <p>If you have questions regarding the bokashi composting don’t hesitate to contact me.</p>
+                    <!-- First Name -->
+                    <p class="add-space-bottom-10">If you have questions regarding the bokashi composting don’t hesitate to contact me.</p>
+                    <label><strong>Let me know who You are</strong></label>
+                
+                    <label for="first_name"></label>
+                    <input type="text" placeholder="First Name" name="first_name" id="first_name" class="text-input-field" required>
                     
-                    <label for="first_name">First Name</label>
-                    <input type="text" name="first_name" id="first_name" class="text-input-field" required>
+                    <label for="last_name"></label>
+                    <input type="text"  placeholder="Last Name" name="last_name" id="last_name" class="text-input-field" required>
                     
-                    <label for="last_name">Last Name</label>
-                    <input type="text" name="last_name" id="last_name" class="text-input-field" required>
+                    <label for="e-mail"></label>
+                    <input type="email" placeholder="Email Adress" name="e-mail" id="e-mail" class="text-input-field" required>
                     
-                    <label for="e-mail">Email Adress</label>
-                    <input type="email" name="e-mail" id="e-mail" class="text-input-field" required>
+                    <label for="message"><strong>Let me know what You think</strong></label>
+                    <textarea placeholder="Your message goes here" name="message" id="message"  class="textarea-input-field" cols="30" rows="10" required></textarea>
                     
-                    <label for="message">Let me know what you think</label>
-                    <textarea name="message" id="message"  class="textarea-input-field" cols="30" rows="10" required></textarea>
-                    
-                    <button type="submit" class="button-white" aria-label="Send message">Send Message</button>
+                    <button type="submit" class="button-white button-align-right" aria-label="Send message">Send Message</button>
                 </form>
+            </div>
         </section>
 
     </main>
