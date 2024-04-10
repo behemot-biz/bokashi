@@ -90,6 +90,15 @@ h1, h2, h3 {
     border-radius: 10px;
     padding: 10px;
 }
+.button-white:focus,
+.button-white:hover  {
+    background-color:#582f0e;
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #ffffff; 
+    border-radius: 10px;
+    padding: 10px;
+}
 .button-align-right {
     align-self: flex-end;
 }
@@ -239,10 +248,12 @@ main {
     height: 325px;
     width: 100%;
 }
-/* .guide {
-    margin: 20px;
-    padding:15px;
+.guide h2 {
+    color: #072B07;
+    font-size: 1.5rem;
+    text-align: center;
 }
+/* 
 .guide p { 
     padding-bottom: 15px;
 } */
@@ -414,6 +425,10 @@ main {
     .testimonial-grid {
         grid-template-columns: repeat(3, 1fr);
     }
+    /* guide grid */
+    .guide-grid {
+    margin: 0 50px;
+    }
 
     /* Contact form */
     .contact {
@@ -444,6 +459,7 @@ main {
         grid-template-rows: auto auto;
         /* column-gap: 2rem; */
         row-gap: 3rem;
+        margin: 0;
     }
     .guide-image {
         margin: 0;                
