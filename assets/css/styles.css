@@ -91,7 +91,7 @@ h1, h2, h3 {
     padding: 10px;
 }
 .button-align-right {
-    float: inline-end;
+    align-self: flex-end;
 }
 
 /* header */
@@ -268,53 +268,42 @@ main {
     width: 100%
     /* width: -moz-available; */
 }
+
 /* Contact page */
 .contact {
-    background-color: #f6f9f4;
     padding-bottom: 20px;
-    /* height: 80vh; */
+}
+.contact-form-font-styling label, input, button {
+    font-family: "Source Sans 3", sans-serif;
+    font-style: normal;
+    font-size: 1rem;
 }
 .contact-form {
-    /* position: absolute; */
-    /* width: 90%; */
-    /* top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
+    display: flex;
+    flex-direction: column;
     border-radius: 10px;
-    /* background-color: rgba(255, 255, 255, 0.95); */
-     /* rgba(255, 255, 255, 0.85); */
-    /* padding: 20px 20px 50px 20px; */
     margin: 0 1rem;
-    /* text-align: center; */
 }
-
+.contact-form label, input, textarea {
+    margin-left: 15px;
+}
 .text-input-field, .textarea-input-field {
-    /* color: green; */
-    /* height: 1.5rem;
-    width: 100%; */
-
-    
-  line-height:1.23536;
-  font-weight:400;
-  letter-spacing:-.022em;
-  width:100%;
-  height:2.5rem;
-  border-radius: 10px;
-  /* box-sizing:border-box; */
-  margin-bottom: 1rem;
-  padding: 0.5rem;
-  text-align:left;
-  appearance:none;
-  border:1px solid
-
+    line-height:1.23536;
+    font-weight:400;
+    letter-spacing:-.022em;
+    width:100%;
+    height:2.5rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    text-align:left;
+    appearance:none;
+    border:1px solid
 }
 .textarea-input-field {
-    /* color: green; */
-    /* height: 1.5rem; */
-    /* width: 100%; */
     height: auto;
-
 }
+
 /* Footer */
 #social-networks {
     /* margin-top: 20px; */
@@ -393,6 +382,11 @@ main {
         grid-template-columns: repeat(2, 1fr);
         padding-block: 2rem 0; 
     }
+
+    /* Contact form */
+    .text-input-field{
+        width: 50%;
+    }
 }
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
@@ -403,6 +397,7 @@ main {
     /* Hero, start page */
     #hero {
         height: 80vh;
+        min-height: 400px; /* to prevent overlapping */
         background: url(../images/garden-backgrounds.webp) no-repeat center bottom / cover;
     }
     .hero-text {
@@ -418,6 +413,12 @@ main {
     /* testimonial section */
     .testimonial-grid {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* Contact form */
+    .contact {
+        width: 800px;
+        margin: 0 auto;
     }
 }
 
