@@ -74,6 +74,7 @@ h1, h2, h3 {
 }
 .hero-heading {
     font-size: 3rem; /* 48px */ 
+    padding-bottom: 1rem;
 }
 .hero-sub-heading {
     font-size: 1.5rem; /* 24px */
@@ -164,7 +165,8 @@ main {
 #hero {
     height: 70vh;
     width: 100%;
-    background: url(../images/rhubarb-cabage.webp) no-repeat left bottom / cover;
+    min-height:300px; /* to prevent overlapping */
+    background: url(../images/garden-backgrounds.webp) no-repeat center bottom / cover;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -174,13 +176,9 @@ main {
 .hero-text {
     position: absolute;
     width: 90%;
-    /* top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.95);
-     /* rgba(255, 255, 255, 0.85); */
-    padding: 20px 20px 50px 20px;
+    padding: 30px 20px 50px 20px;
     margin: 0 20px;
     text-align: center;
 }
@@ -402,6 +400,21 @@ main {
      #menu a:hover {
         text-decoration:underline;
     }  
+    /* Hero, start page */
+    #hero {
+        height: 80vh;
+        background: url(../images/garden-backgrounds.webp) no-repeat center bottom / cover;
+    }
+    .hero-text {
+        position: absolute;
+        width: 50%;
+        left: 50%;
+        border-radius: 0;
+        padding-top: 150px;
+        margin: auto;
+        height: 100%;
+    }
+
     /* testimonial section */
     .testimonial-grid {
         grid-template-columns: repeat(3, 1fr);
