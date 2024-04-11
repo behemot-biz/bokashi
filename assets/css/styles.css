@@ -299,6 +299,12 @@ main {
 .contact-form label, input, textarea {
     margin-left: 15px;
 }
+.contact-form-buttons {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    gap: 1rem;
+}
 .text-input-field, .textarea-input-field {
     line-height:1.23536;
     font-weight:400;
