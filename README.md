@@ -14,10 +14,8 @@ I use my own knowledge on the subject and how "scared" I felt before I actually 
 
 ## User stories
 
-User story: As a homeowner I want easy instructions on how to start using the compost method without spending lots of money.
-
-End user goal: After reading the step-by-step guide I feel confident to start turning my kitchen scrap into new nutrient rich soil.
-
+User story: As a homeowner I want easy instructions on how to start using the compost method without spending lots of money.<br>
+End user goal: After reading the step-by-step guide I feel confident to start turning my kitchen scrap into new nutrient rich soil<br>
 End business goal: The user actually gives the composting a try.
 <hr>
 to be continued...
@@ -28,6 +26,7 @@ to be continued...
 
 The responsive navigation bar on top of the page includes links to the home, guide and contact pages. 
 The Bokash! logo is linked to the home (start page). The mavigation bar has the same content and cunctionallity on all pages.
+I didn't want to use fontawesome for the "hamburger" menu (small devices), instead I chose to use '&#9776' for &#9776;
 
 ### Home (start page)
 It starts off with a hero section with a button-link to the step-by-step guide (guide page) followed by a fairly brief introduction to the benefits of using composting method. Below there is a testimonial section with thougths from people using the composting method.

@@ -125,6 +125,7 @@ header a {
 #menu {
     padding: 0;
     letter-spacing: 1px;
+    line-height: 2rem;
     list-style-type: none;
 }
 #menu > li {
@@ -171,7 +172,7 @@ main {
     /* padding-bottom: 20px; */
 }
 
-#hero {
+.hero {
     height: 70vh;
     width: 100%;
     min-height:300px; /* to prevent overlapping */
@@ -284,7 +285,7 @@ main {
 .contact {
     padding-bottom: 20px;
 }
-.contact-form-font-styling label, input, button {
+.contact-form-font-styling label, input, button, textarea {
     font-family: "Source Sans 3", sans-serif;
     font-style: normal;
     font-size: 1rem;
@@ -316,7 +317,7 @@ main {
 }
 
 /* Footer */
-#social-networks {
+.footer-copyright {
     /* margin-top: 20px; */
     text-align: center;
     padding: 20px 0;
@@ -327,7 +328,7 @@ main {
     color: #ffffff;
 }
 
-#social-networks i {
+.footer-copyright i {
     font-size: 160%;
     padding: 5%;
 }
