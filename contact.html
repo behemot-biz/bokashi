@@ -36,20 +36,16 @@
                 <form action="https://formdump.codeinstitute.net" method="POST" class="contact-form">
                     <!-- First Name -->
                     <p class="add-space-bottom-10">If you have questions regarding the bokashi composting don’t hesitate to contact me.</p>
-                    <label><strong>Let me know who You are</strong></label>
-                
-                    <label for="first_name"></label>
-                    <input type="text" placeholder="First Name" name="first_name" id="first_name" class="text-input-field" required>
-                    
-                    <label for="last_name"></label>
-                    <input type="text"  placeholder="Last Name" name="last_name" id="last_name" class="text-input-field" required>
-                    
-                    <label for="e-mail"></label>
-                    <input type="email" placeholder="Email Adress" name="e-mail" id="e-mail" class="text-input-field" required>
-                    
-                    <label for="message"><strong>Let me know what You think</strong></label>
+                    <p><strong>Let me know who You are</strong></p>
+                    <label for="first_name" hidden>First Name</label>
+                    <input type="text" placeholder="First Name" name="first_name" id="first_name" class="text-input-field" required autocomplete="given-name">
+                    <label for="last_name" hidden>Last Name</label>
+                    <input type="text"  placeholder="Last Name" name="last_name" id="last_name" class="text-input-field" required autocomplete="family-name">
+                    <label for="e-mail" hidden>Email Adress</label>
+                    <input type="email" placeholder="Email Adress" name="e-mail" id="e-mail" class="text-input-field" required autocomplete="email">
+                    <p><strong>Let me know what You think</strong></p>
+                    <label for="message" hidden><strong>Let me know what You think</strong></label>
                     <textarea placeholder="Your message goes here" name="message" id="message"  class="textarea-input-field" cols="30" rows="10" required></textarea>
-                    
                     <button type="submit" class="button-white button-align-right" aria-label="Send message">Send Message</button>
                 </form>
             </div>
