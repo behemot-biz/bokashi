@@ -12,7 +12,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-
     /* Generic project styles*/
     color: #3a3a3a;
     font-family: "Source Sans 3", sans-serif;
@@ -32,23 +31,13 @@ h1, h2, h3 {
     text-align: center;
 }
 .main-content p {
-    /* margin-bottom: 10px; */
     margin: 0 1rem 10px 1rem;
 }
 .main-content-green p {
-    /* margin-bottom: 10px; */
     margin: 0 1rem 10px 1rem;
 }
-
-/* happens on all pages now, need to tink on this one */
-/* .main-content p:last-child  {
-    padding-top: 20px;
-    text-align: center;
-} */
-
 .main-content-green {
-    /* background-color: #DAE5D2; */
-    /* needed a lighter touch on the background */
+
     background-color: #f6f9f4;
 }
 
@@ -70,20 +59,20 @@ h1, h2, h3 {
     color: #582f0e;
 }
 .logo-heading {
-    font-size: 2rem; /* 32px */
+    font-size: 2rem;
 }
 .hero-heading {
-    font-size: 3rem; /* 48px */ 
+    font-size: 3rem;
     padding-bottom: 1rem;
 }
 .hero-sub-heading {
-    font-size: 1.5rem; /* 24px */
-    padding-bottom: 3.75rem; /* 60px */
+    font-size: 1.5rem; 
+    padding-bottom: 3.75rem;
 }
 
 /* buttons */
 .button-white {
-    background-color:#ffffff;
+    background-color: #ffffff;
     color: #582f0e;
     text-decoration: none;
     border: 1px solid #582f0e; 
@@ -92,7 +81,7 @@ h1, h2, h3 {
 }
 .button-white:focus,
 .button-white:hover  {
-    background-color:#582f0e;
+    background-color: #582f0e;
     color: #ffffff;
     text-decoration: none;
     border: 1px solid #ffffff; 
@@ -130,12 +119,9 @@ header a {
 }
 #menu > li {
     margin-bottom: 0.5em;
-    
 }
 .active {
-    /* border-bottom: 1px solid #3a3a3a; */
     text-decoration: underline;
-    /* text-decoration-style: dashed; */
 }
 nav {
     position: absolute;
@@ -157,7 +143,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
-    color:#582f0e;
+    color: #582f0e;
 }
 /* Main section */
 main {
@@ -168,14 +154,12 @@ main {
     /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
-    /* background-color: #fffbf6; */
-    /* padding-bottom: 20px; */
 }
 
 .hero {
     height: 70vh;
     width: 100%;
-    min-height:300px; /* to prevent overlapping */
+    min-height: 300px; 
     background: url(../images/garden-backgrounds.webp) no-repeat center bottom / cover;
     position: relative;
     display: flex;
@@ -187,7 +171,7 @@ main {
     position: absolute;
     width: 90%;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: #fffffff2;
     padding: 30px 20px 50px 20px;
     margin: 0 20px;
     text-align: center;
@@ -205,7 +189,6 @@ main {
 .testimonial-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    /* grid-template-rows: auto auto; */
     gap: 1.5rem;
     padding-block: 1rem 0; 
 }
@@ -229,10 +212,6 @@ main {
     flex: 1 0 auto;
     background-color: #ffffff;
     padding: 0.5rem 0;
-
-    /* border: aquamarine solid 3px; */
-
-    /* padding: 15px; */
 }
 .card-text {
    margin: 0;
@@ -242,10 +221,9 @@ main {
     font-style: italic;
 }
 
-
 /* Guide page */
 #guide-heading-image {
-    background: url(../images/garlic-watering-1200.webp) no-repeat center bottom / cover;
+    background: url(../images/garlic-watering.webp) no-repeat center bottom / cover;
     height: 325px;
     width: 100%;
 }
@@ -254,31 +232,19 @@ main {
     font-size: 1.5rem;
     text-align: center;
 }
-/* 
-.guide p { 
-    padding-bottom: 15px;
-} */
 
 /* Setting up grid for step guide */
 .guide-grid {
     display: grid;
     gap: 1.5rem;
     padding-block: 0 2rem;
-    /* width: min(95%, 70rem); */
     margin-inline: auto;
 }
 .guide-image, .guide-text {
     margin: auto;
 }
-/* .guide-text {
-    padding: 0 20px;
-}
-.guide-text p {
-    padding-bottom: 10px;
-} */
 .guide-image img {
     width: 100%
-    /* width: -moz-available; */
 }
 
 /* Contact page */
@@ -297,12 +263,8 @@ main {
 .contact-form {
     display: flex;
     flex-direction: column;
-    /* border-radius: 10px; */
     margin: 0 1rem;
 }
-/* .contact-form label, input, textarea {
-    margin-left: 15px;
-} */
 .contact-form-buttons {
     display: flex;
     flex-direction: row;
@@ -310,17 +272,17 @@ main {
     gap: 1rem;
 }
 .text-input-field, .textarea-input-field {
-    line-height:1.23536;
-    font-weight:400;
-    letter-spacing:-.022em;
-    width:100%;
-    height:2.5rem;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    width: 100%;
+    height: 2.5rem;
     border-radius: 10px;
     margin-bottom: 1rem;
     padding: 0.5rem;
-    text-align:left;
-    appearance:none;
-    border:1px solid
+    text-align: left;
+    appearance: none;
+    border: 1px solid
 }
 .textarea-input-field {
     height: auto;
@@ -328,7 +290,6 @@ main {
 
 /* Footer */
 .footer-copyright {
-    /* margin-top: 20px; */
     text-align: center;
     padding: 20px 0;
     display: flex;
@@ -347,7 +308,6 @@ main {
 @media screen and (min-width: 576px) {
     /* testimonial section */
     .card-image-holder {
-        /* width: 90%; */
         overflow: hidden;
     }
 }
@@ -378,14 +338,13 @@ main {
     /* Main */
      main {
         margin-top: 76px;
-        /* margin-top: 4.8rem; */
     }
     .main-content, .main-content-green {
         padding: 2em;
     }
 
     /* Guide grid  */
-       /* Setting up a two column grid */
+    /* Setting up a two column grid */
     .guide-grid {
         grid-template-columns: 1fr 3fr;
         row-gap: 3rem;
@@ -395,7 +354,6 @@ main {
         margin: 0;
     }
         .guide-text {
-        /* margin: auto; */
         padding: 0;
     }
 
@@ -419,7 +377,7 @@ main {
     /* Hero, start page */
     #hero {
         height: 80vh;
-        min-height: 400px; /* to prevent overlapping */
+        min-height: 400px; 
         background: url(../images/garden-backgrounds.webp) no-repeat center bottom / cover;
     }
     .hero-text {
@@ -465,10 +423,8 @@ main {
     }
      /* Guide page */
     .guide-grid {
-        /* gap: 1.5rem; */
         grid-template-columns: 1fr 2fr 1fr 2fr;
         grid-template-rows: auto auto;
-        /* column-gap: 2rem; */
         row-gap: 3rem;
         margin: 0;
     }
@@ -479,7 +435,6 @@ main {
         margin: 0;
     }
     .guide-text {
-        /* margin: auto; */
         padding: 0;
     }
     .guide-image img {
