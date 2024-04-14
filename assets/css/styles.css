@@ -40,7 +40,7 @@ h1, h2, h3 {
 
     background-color: #f6f9f4;
 }
-
+/* Classes for extra space*/
 .add-space-top-20 {
     margin-top: 20px;
 }
@@ -62,11 +62,11 @@ h1, h2, h3 {
     font-size: 2rem;
 }
 .hero-heading {
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding-bottom: 1rem;
 }
 .hero-sub-heading {
-    font-size: 1.5rem; 
+    font-size: 1rem; 
     padding-bottom: 3.75rem;
 }
 
@@ -267,9 +267,9 @@ main {
 }
 .contact-form-buttons {
     display: flex;
-    flex-direction: row;
-    align-self: flex-end;
+    flex-direction: column;
     gap: 1rem;
+    justify-content: space-evenly;
 }
 .text-input-field, .textarea-input-field {
     line-height: 1.23536;
@@ -289,7 +289,7 @@ main {
 }
 
 /* Footer */
-.footer-copyright {
+.footer-social {
     text-align: center;
     padding: 20px 0;
     display: flex;
@@ -299,11 +299,28 @@ main {
     color: #ffffff;
 }
 
-.footer-copyright i {
+.footer-social i {
     font-size: 160%;
     padding: 5%;
+    color: #ffffff
 }
 
+/* Media query for large or landscape phones (375px and up) */
+@media screen and (min-width: 375px) {
+    .hero-heading {
+        font-size: 3rem;
+        padding-bottom: 1rem;
+    }
+    .hero-sub-heading {
+        font-size: 1.5rem; 
+        padding-bottom: 3.75rem;
+    }
+
+    .contact-form-buttons {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
 /* Media query for large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     /* testimonial section */
@@ -366,6 +383,10 @@ main {
     /* Contact form */
     .text-input-field{
         width: 50%;
+    }
+    .contact-form-buttons {
+        align-self: flex-end;
+        
     }
 }
 /* Large devices (laptops and desktops, 992px and up) */
