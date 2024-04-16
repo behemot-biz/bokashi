@@ -222,7 +222,7 @@ main {
 }
 
 /* Guide page */
-#guide-heading-image {
+.guide-heading-image {
     background: url(../images/garlic-watering.webp) no-repeat center bottom / cover;
     height: 325px;
     width: 100%;
