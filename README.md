@@ -10,13 +10,16 @@ My aim with this site is to demystifie the concept and encourage people to give 
 I use my own knowledge on the subject and I remember how daunted I felt before I actually dared to get going four years ago. 
 
 ### Look and feel on different devices
-![Responsive image example](assets/readme-images/amiresponsive.png)
+![Responsive image example](readme-images/amiresponsive.png)
+
+
+
 
 ## User stories
 
-User story: As a homeowner I want easy instructions on how to start using the compost method without spending lots of money.<br>
-End user goal: After reading the step-by-step guide I feel confident to start turning my kitchen scrap into new nutrient rich soil<br>
-End business goal: The user actually gives the composting a try.
+**User story:** As a homeowner I want easy instructions on how to start using the compost method without spending lots of money.<br>
+**End user goal:** After reading the step-by-step guide I feel confident to start turning my kitchen scrap into new nutrient rich soil<br>
+**End business goal:** The user actually gives the composting a try.
 
 to be continued...
 
@@ -83,4 +86,4 @@ Web tools:
 - [Favoicon](https://favicon.io/favicon-generator/#google_vignette) (generate favicon)
 - [Fontpair](https://www.fontpair.co/) (find matching fonts)
 - [Google fonts](https://fonts.google.com/)
-[Am i responsive](https://ui.dev/amiresponsive) (generate image on different devices)
+- [Am i responsive](https://ui.dev/amiresponsive) (generate image on different devices)
