@@ -37,9 +37,9 @@ h1, h2, h3 {
     margin: 0 1rem 10px 1rem;
 }
 .main-content-green {
-
     background-color: #f6f9f4;
 }
+
 /* Classes for extra space*/
 .add-space-top-20 {
     margin-top: 20px;
@@ -197,7 +197,7 @@ main {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 10px;
 }
 .card-image-holder {
