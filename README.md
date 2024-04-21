@@ -41,7 +41,7 @@ These user stories are designed to ensure that the website meets the needs of bo
 
 ## Design decisions
 ### Fonts
-I wanted contrast between headlines and bread text, i used the site fontpair.co for inspiration. 
+I wanted contrast between headlines and bread text, I used the site fontpair.co for inspiration. 
 I decided to use Playfair Display for all headlines and Source Sans 3 for bread text.
 
 A quite funny thing, later when I was looking around for some inspiration I found the same headline font on a swedish site, selling all things needed for bokash composting, bokashi.se, so I guess it was a good choice.
@@ -52,19 +52,19 @@ I selected brown and shades of green. Brown for the bokashi brans and the good s
 ![Color scheme](readme-images/colors.png)
 
 #### Colour use
-- Brown #582f0e - Headlines on white background, logo and footer 
+- Brown #582f0e - Headlines on white background, logo, hamburger icon and footer 
 - Green #072B07 - Headlines on pale green background
 - Pale green #f6f9f4 - Background color
 - White #ffffff - Background color, icons in footer
 - White whith opacity #fffffff2 - Background color
-- Dark grey #3a3a3a - Bread text, hamburger icon and navigation text
+- Dark grey #3a3a3a - Bread text and navigation text
 
 ### Imagery
 I used my own pictures from my garden and family. I also took new pictures of the bokashi workflow to use as illustrations in the guide.
 
 ### Wireframes
 
-I chose to use figma for wirefrane and prototyping. This is also where i wrote most of the textual content to make sure it all works together.
+I chose to use figma for wirefrane and prototyping. This is also where I wrote most of the textual content to make sure it all works together.
 As you can see in the image below some design elements has changed, but most is staying true in the deployed version.
 <details>
 <summary>View the Prototype document (image of)</summary>
@@ -74,15 +74,15 @@ As you can see in the image below some design elements has changed, but most is 
 
 ## Features
 
-### Header, Navigation and Footer - Elements used in all pages
+### Header, Navigation and Footer - Elements avaiable in all pages
 The responsive navigation bar in top of a page includes links to the home, guide and contact pages. 
-The Bokash! logo is linked to the home (start page). The mavigation bar has the same content and functionallity on all pages.
+The Bokash! logo is linked to the home (start page). The navigation bar has the same content and functionallity on all pages.
 I didn't want to use fontawesome for the "hamburger" menu (small devices), instead I chose to use '&#9776' for &#9776;
 
 The footer in the bottom a page contains links to social media sites. All links opens in new tabs.
 
 ### Home (start page)
-It starts off with a hero section with a button-link to the step-by-step guide (guide page) followed by a fairly brief introduction to the benefits of using composting method. Below there is a testimonial section with thougths from people using the composting method.
+The start page starts off with a hero section with a button-link to the step-by-step guide (guide page, I used an anchor to the guide section of the page) followed by a fairly brief introduction to the benefits of using composting method. Below there is a testimonial section with thougths from people using the composting method.
 
 ![Home/startpage](readme-images//index.webp)
 
@@ -271,9 +271,9 @@ Passed without errors
 <summary>Result guide page (image of)</summary>
 
 ![Guide page - desktop](readme-images/lighthouse-guide-mobile.png)
-</details
-
+</details>
 <details>
+
 <summary>Result contact page (image of)</summary>
 
 ![Contact page - desktop](readme-images/lighthouse-contact-mobile.png)
@@ -303,10 +303,10 @@ Passed without errors
 - [Github](https://behemot-biz.github.io/bokashi/) (repository)
 - [Favoicon](https://favicon.io/favicon-generator/#google_vignette) (generate favicon)
 - [Fontpair](https://www.fontpair.co/) (find matching fonts)
-- [Google fonts](https://fonts.google.com/)
+- [Google fonts](https://fonts.google.com/) (font api for loading fonts)
 - [Am i responsive](https://ui.dev/amiresponsive) (generate image on different devices)
 - [Font Awesome](https://fontawesome.com) (social network icons)
-- [Markup validation Service](https://validator.w3.org) (code validation)
+- [Markup validation Service](https://validator.w3.org) (html code validation)
 - [CSS validation service](https://jigsaw.w3.org/css-validator/) (css code validation)
 
 ## Ideas for future implementation
@@ -316,7 +316,27 @@ Passed without errors
 
 ## Credits
 
-### Sources used
-[Komposten kan bli en klimatbov]( https://www.forskning.se/2022/04/28/kompost-eller-bokashi-vad-ar-bast/) A swedish government funded research site. 
+### Sources
 
-[def]: read-
+Forskning.se, [Komposten kan bli en klimatbov](https://www.forskning.se/2022/04/28/kompost-eller-bokashi-vad-ar-bast/) A swedish government funded research site. (Linked to in guide.html)
+
+### Code 
+
+Header and navigation copied from the CI project "Love Running", modified to fit<br>
+Footer copied from the CI project "Love Running", modified to fit
+
+### Inspiration and tutorials used from
+
+**Kevin Powell youtube**<br>
+[Learn CSS Grid the easy way](https://www.youtube.com/watch?v=rg7Fvvl3taU)<br>
+[Build a responsive card - HTML and CSS tutorial](https://www.youtube.com/watch?v=51DbAwcmqD8)<br>
+
+**Refreshing my html knowledge**<br>
+[W3Schools](https://www.w3schools.com/)
+
+**Readme**<br>
+[README.md - How, What and When?](https://www.youtube.com/watch?v=l1DE7L-4eKQ) 
+
+**Special thanks**<br>
+Special thanks to my my husband Jimi, fellow students in the swedish channel and my mentor Rohit Sharma
+
