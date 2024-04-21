@@ -84,22 +84,24 @@ The footer in the bottom a page contains links to social media sites. All links 
 ### Home (start page)
 The start page starts off with a hero section with a button-link to the step-by-step guide (guide page, I used an anchor to the guide section of the page) followed by a fairly brief introduction to the benefits of using composting method. Below there is a testimonial section with thougths from people using the composting method.
 
-![Home/startpage](readme-images//index.webp)
+![Home/startpage](readme-images/index.webp)
 
 ### Guide 
 First section gives a short introduktion of the compost technique and the initial cost to start (in sweden).
 Second section is the 5-step guide with pictures and textual instructions.
 
-![Guide](readme-images//guide.webp)
+![Guide](readme-images/guide.webp)
 
 ### Contact
 Contact form for anyone who wants to get in touch.
 The form consists of first name, family name, email and message fields as well as send message and reset buttons.
 
-![Contact](readme-images//contact.webp)
+![Contact](readme-images/contact.webp)
 
 ### 404
+File not found page with image and links.
 
+![Contact](readme-images/404.webp)
 
 ## Test
 
@@ -265,15 +267,15 @@ Passed without errors
 <summary>Result start/home page (image of)</summary>
 
 ![Index page - desktop](readme-images/lighthouse-index-mobile.png)
-</details
+</details>
 
 <details>
-<summary>Result guide page (image of)</summary>
+<summary>Result guide page (image of) </summary>
 
 ![Guide page - desktop](readme-images/lighthouse-guide-mobile.png)
 </details>
-<details>
 
+<details>
 <summary>Result contact page (image of)</summary>
 
 ![Contact page - desktop](readme-images/lighthouse-contact-mobile.png)
