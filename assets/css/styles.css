@@ -140,18 +140,14 @@ nav {
 #nav-toggle {
     display: none;
 }
-
 .nav-toggle-label {
     font-size: 2rem;
     color: #582f0e;
 }
 /* Main section */
 main {
-    /* make main element fill all surplus space to push footer down */
     flex: 1 0 auto;
-    /* Add margin at the top to prevent content from being covered by the header */
     margin-top: 47px;
-    /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
 }
@@ -336,7 +332,6 @@ main {
     .card-image-holder {
         overflow: hidden;
     }
-    
     /* 4o4 page image */
     .four-o-four-center {
         margin-top: 30px;

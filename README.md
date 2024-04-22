@@ -120,6 +120,8 @@ A notable error occurred when I mistakenly used a capital 'P' in an image file n
 **Guide Page:**
 Using a flex layout did not suit the row/column structure I intended for the step-by-step guide. Switching to a grid layout proved more effective, offering the flexibility and control needed to achieve the desired presentation and functionality.
 
+**Contact Page:**
+Autocomplete not working. Miss-use of autocomplete, I moved autocomplete=“on” to the opening form tag. It works as expected.
 
 ### Testing against the user stories
 #### Homepage Visitor
@@ -177,6 +179,7 @@ I created the cases below to verify the functionality of each page in both deskt
 |Form|Sends data to CI formdump|Fill out all fields, click send message|Pass|
 |Form-empty field|Message indicates empty field, message not sent|Leave form field blank, click send message|pass|
 |Form-not email address|Message indicates not an email address, message not sent|Input text in email form field, click send message|pass|
+|Form-clear|Resets form fields to empty state|Fill out all fields, click clear message|Pass|
 |Footer|Opens Facebook in new tab|Click Facebook icon|Pass|
 |Footer|Opens X in new tab|Click X icon|Pass|
 |Footer|Opens Youtube in new tab|Click Youtube icon|Pass|
@@ -223,6 +226,7 @@ I created the cases below to verify the functionality of each page in both deskt
 |Form|Sends data to CI formdump|Fill out all fields, click send message|Pass|
 |Form-empty field|Message indicates empty field, message not sent|Leave form field blank, click send message|pass|
 |Form-not email address|Message indicates not an email address, message not sent|Input text in email form field, click send message|pass|
+|Form-clear|Resets form fields to empty state|Fill out all fields, click clear message|Pass|
 |Footer|Opens Facebook in new tab|Click Facebook icon|Pass|
 |Footer|Opens X in new tab|Click X icon|Pass|
 |Footer|Opens Youtube in new tab|Click Youtube icon|Pass|
