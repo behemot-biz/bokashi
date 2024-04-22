@@ -5,9 +5,9 @@
 [Bokashi Simplified](https://behemot-biz.github.io/bokashi/)
 is a site about bokashi composting, an efficient, anaerobic process that uses a specific group of microorganisms to ferment kitchen waste. 
 ### Project Purpose
-My aim with this site is to demystifie the concept and encourage people to give it a try with a very basic step-by-step guide whithout overwhelming with technical and scientific text.
+My aim with this site is to demystify the concept and encourage people to give it a try with a very basic step-by-step guide without overwhelming with technical and scientific text.
 
-I use my own knowledge on the subject and I remember how daunted I felt before I actually dared to get going four years ago. 
+I use my own knowledge on the subject, and I remember how daunted I felt before I dared to get going four years ago. 
 
 ### Look and feel on different devices
 ![Responsive image example](readme-images/amiresponsive.png)
@@ -44,7 +44,7 @@ These user stories are designed to ensure that the website meets the needs of bo
 I wanted contrast between headlines and bread text, I used the site fontpair.co for inspiration. 
 I decided to use Playfair Display for all headlines and Source Sans 3 for bread text.
 
-A quite funny thing, later when I was looking around for some inspiration I found the same headline font on a swedish site, selling all things needed for bokash composting, bokashi.se, so I guess it was a good choice.
+A quite funny thing, later when I was looking around for some inspiration, I found the same headline font on a Swedish site, selling all things needed for bokashi composting, bokashi.se, so I guess it was a good choice.
 
 ### Colours
 I selected brown and shades of green. Brown for the bokashi brans and the good soil it creates. Green for the great food I get when growing in the nutrient soil I get from the compost.
@@ -64,7 +64,7 @@ I used my own pictures from my garden and family. I also took new pictures of th
 
 ### Wireframes
 
-I chose to use figma for wirefrane and prototyping. This is also where I wrote most of the textual content to make sure it all works together.
+I chose to use figma for wireframe and prototyping. This is also where I wrote most of the textual content to make sure it all works together with the layout.
 As you can see in the image below some design elements has changed, but most is staying true in the deployed version.
 <details>
 <summary>View the Prototype document (image of)</summary>
@@ -76,19 +76,19 @@ As you can see in the image below some design elements has changed, but most is 
 
 ### Header, Navigation and Footer - Elements avaiable in all pages
 The responsive navigation bar in top of a page includes links to the home, guide and contact pages. 
-The Bokash! logo is linked to the home (start page). The navigation bar has the same content and functionallity on all pages.
+The Bokash! logo is linked to the home (start page). The navigation bar has the same content and functionality on all pages.
 I didn't want to use fontawesome for the "hamburger" menu (small devices), instead I chose to use '&#9776' for &#9776;
 
 The footer in the bottom a page contains links to social media sites. All links opens in new tabs.
 
 ### Home (start page)
-The start page starts off with a hero section with a button-link to the step-by-step guide (guide page, I used an anchor to the guide section of the page) followed by a fairly brief introduction to the benefits of using composting method. Below there is a testimonial section with thougths from people using the composting method.
+The start page starts off with a hero section with a button-link to the step-by-step guide (guide page, I used an anchor to the guide section of the page) followed by a fairly brief introduction to the benefits of using composting method. Below there is a testimonial section with thoughts from people using the composting method. I decided on the pale green background color here to visually separate the testimonials from the introduction.
 
 ![Home/startpage](readme-images/index.webp)
 
 ### Guide 
-First section gives a short introduktion of the compost technique and the initial cost to start (in sweden).
-Second section is the 5-step guide with pictures and textual instructions.
+First section gives a short introduction of the compost technique and the initial cost to start (in Sweden).
+Second section is the 5-step guide with pictures and textual instructions. The pale green background is used here as well as visual separation from the first section.
 
 ![Guide](readme-images/guide.webp)
 
@@ -141,8 +141,7 @@ The website effectively meets the criteria laid out in the user stories. The inf
 
 I created the cases below to verify the functionality of each page in both desktop and mobile layout.
 
-
-**Home/Start page desktop layout**
+#### Home/Start page - desktop layout
 |Feature|Expected result|Action|Status|
 | --- | --- | --- | --- | 
 |Logo|Reloads page|Click logo|Pass|
@@ -155,7 +154,7 @@ I created the cases below to verify the functionality of each page in both deskt
 |Footer|Opens Youtube in new tab|Click Youtube icon|Pass|
 |Footer|Opens Instagram in new tab|Click Instagram icon|Pass|
 
-**Guide page desktop layout**
+#### Guide page - desktop layout
 |Feature|Expected result|Action|Status|
 | --- | --- | --- | --- | 
 |Logo|Loads start page|Click logo|Pass|
@@ -168,7 +167,7 @@ I created the cases below to verify the functionality of each page in both deskt
 |Footer|Opens Youtube in new tab|Click Youtube icon|Pass|
 |Footer|Opens Instagram in new tab|Click Instagram icon|Pass|
 
-**Contact page desktop layout**
+#### Contact page - desktop layout
 |Feature|Expected result|Action|Status|
 | --- | --- | --- | --- | 
 |Logo|Loads start page|Click logo|Pass|
@@ -177,18 +176,18 @@ I created the cases below to verify the functionality of each page in both deskt
 |Navigation|Reloads page|Click contact in navigation|Pass|
 |Form|Sends data to CI formdump|Fill out all fields, click send message|Pass|
 |Form-empty field|Message indicates empty field, message not sent|Leave form field blank, click send message|pass|
-|Form-not email address|Message indicates not an email address, message not sent|Input text in email form field , click send message|pass|
+|Form-not email address|Message indicates not an email address, message not sent|Input text in email form field, click send message|pass|
 |Footer|Opens Facebook in new tab|Click Facebook icon|Pass|
 |Footer|Opens X in new tab|Click X icon|Pass|
 |Footer|Opens Youtube in new tab|Click Youtube icon|Pass|
 |Footer|Opens Instagram in new tab|Click Instagram icon|Pass|
 
-**Home/Start page mobile layout**
+#### Home/Start page - mobile layout
 |Feature|Expected result|Action|Status|
 | --- | --- | --- | --- | 
 |Logo|Reloads page|Click logo|Pass|
 |Mobile navigation|Expands menu|Click burger icon|Pass|
-|Mobile navigation|Colapses menu|Click burger icon|Pass|
+|Mobile navigation|Collapses menu|Click burger icon|Pass|
 |Mobile navigation|Reloads page|Click home in navigation|Pass|
 |Mobile navigation|Loads guide page|Click guide in navigation|Pass|
 |Mobile navigation|Loads contact page|Click contact in navigation|Pass|
@@ -198,12 +197,12 @@ I created the cases below to verify the functionality of each page in both deskt
 |Footer|Opens Youtube in new tab|Click Youtube icon|Pass|
 |Footer|Opens Instagram in new tab|Click Instagram icon|Pass|
 
-**Guide page mobile layout**
+#### Guide page - mobile layout
 |Feature|Expected result|Action|Status|
 | --- | --- | --- | --- | 
 |Logo|Loads start page|Click logo|Pass|
 |Mobile navigation|Expands menu|Click burger icon|Pass|
-|Mobile navigation|Colapses menu|Click burger icon|Pass|
+|Mobile navigation|Collapses menu|Click burger icon|Pass|
 |Mobile navigation|Loads start page|Click home in navigation|Pass|
 |Mobile navigation|Reloads page|Click guide in navigation|Pass|
 |Mobile navigation|Loads contact page|Click contact in navigation|Pass|
@@ -213,17 +212,17 @@ I created the cases below to verify the functionality of each page in both deskt
 |Footer|Opens Youtube in new tab|Click Youtube icon|Pass|
 |Footer|Opens Instagram in new tab|Click Instagram icon|Pass|
 
-**Contact page mobile layout**
+#### Contact page - mobile layout
 |Logo|Loads start page|Click logo|Pass|
 | --- | --- | --- | --- | 
 |Mobile navigation|Expands menu|Click burger icon|Pass|
-|Mobile navigation|Colapses menu|Click burger icon|Pass|
+|Mobile navigation|Collapses menu|Click burger icon|Pass|
 |Mobile navigation|Loads start page|Click home in navigation|Pass|
 |Mobile navigation|Loads guide page|Click guide in navigation|Pass|
 |Mobile navigation|Reloads page|Click contact in navigation|Pass|
 |Form|Sends data to CI formdump|Fill out all fields, click send message|Pass|
 |Form-empty field|Message indicates empty field, message not sent|Leave form field blank, click send message|pass|
-|Form-not email address|Message indicates not an email address, message not sent|Input text in email form field , click send message|pass|
+|Form-not email address|Message indicates not an email address, message not sent|Input text in email form field, click send message|pass|
 |Footer|Opens Facebook in new tab|Click Facebook icon|Pass|
 |Footer|Opens X in new tab|Click X icon|Pass|
 |Footer|Opens Youtube in new tab|Click Youtube icon|Pass|
@@ -243,13 +242,13 @@ Ipad pro (12,9 inch IOS 16.7.7)
 - Chrome 
 
 Iphone SE
-- Safai
+- Safari
 - Chrome 
 
 Iphone 8 plus (IOS 16.7.7)
 - Safari
 
-The tests where carried out on the mostly finalized site, no errors found.
+The tests where carried out on the finalized site, no errors found.
 
 ### Code validation
 #### HTML
@@ -369,14 +368,14 @@ Passed without errors
 
 ### Sources
 
-Forskning.se, [Komposten kan bli en klimatbov](https://www.forskning.se/2022/04/28/kompost-eller-bokashi-vad-ar-bast/) A swedish government funded research site. (Linked to in guide.html)
+Forskning.se, [Komposten kan bli en klimatbov](https://www.forskning.se/2022/04/28/kompost-eller-bokashi-vad-ar-bast/) A Swedish government funded research site. (Linked to in guide.html)
 
 ### Code 
+Header and navigation copied from the CI project "Love Running", modified to fit my purposes<br>
+Footer copied from the CI project "Love Running", modified to fit my purposes<br>
+Css for header and footer as well as for the hero section was copied from the CI project "Love Running", modified to fit my purposes.
 
-Header and navigation copied from the CI project "Love Running", modified to fit<br>
-Footer copied from the CI project "Love Running", modified to fit
-
-### Inspiration and tutorials used from
+### Tutorials used for improving the site
 
 **Kevin Powell youtube**<br>
 [Learn CSS Grid the easy way](https://www.youtube.com/watch?v=rg7Fvvl3taU)<br>
@@ -389,5 +388,7 @@ Footer copied from the CI project "Love Running", modified to fit
 [README.md - How, What and When?](https://www.youtube.com/watch?v=l1DE7L-4eKQ) 
 
 **Special thanks**<br>
-Special thanks to my my husband Jimi, fellow students in the swedish channel and my mentor Rohit Sharma
+Special thanks to my husband Jimi for patience and support with the copywriting and proofreading of all texts both site and readme.<br>
+Fellow students in the Swedish channel<br>
+Mentor Rohit Sharma
 
