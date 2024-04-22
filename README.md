@@ -36,7 +36,6 @@ Bokashi simplified is designed to educate and engage visitors on the benefits of
 
 **End business goal:**  Visitors not only understand how the method works and the benefits it offers but are also motivated to try the method and possibly share the information with others.
 
-### Conclusion
 These user stories are designed to ensure that the website meets the needs of both its users and me as the owner, focusing on clarity, engagement, and actionable outcomes. They guide the development and content strategy to maximize the impact and usability of the website.
 
 ## Design decisions
@@ -81,29 +80,29 @@ I didn't want to use fontawesome for the "hamburger" menu (small devices), inste
 
 The footer in the bottom a page contains links to social media sites. All links opens in new tabs.
 
-### Home (start page)
+### Home / start page
 The start page starts off with a hero section with a button-link to the step-by-step guide (guide page, I used an anchor to the guide section of the page) followed by a fairly brief introduction to the benefits of using composting method. Below there is a testimonial section with thoughts from people using the composting method. I decided on the pale green background color here to visually separate the testimonials from the introduction.
 
 ![Home/startpage](readme-images/index.webp)
 
-### Guide 
+### Guide page
 First section gives a short introduction of the compost technique and the initial cost to start (in Sweden).
 Second section is the 5-step guide with pictures and textual instructions. The pale green background is used here as well as visual separation from the first section.
 
 ![Guide](readme-images/guide.webp)
 
-### Contact
+### Contact page
 Contact form for anyone who wants to get in touch.
 The form consists of first name, family name, email and message fields as well as send message and reset buttons.
 
 ![Contact](readme-images/contact.webp)
 
-### 404
+### 404 page
 File not found page with image and links.
 
 ![Contact](readme-images/404.webp)
 
-## Test
+## Testing
 
 ### Early and continuous testing 
 Throughout the development process of the website, I conducted continuous testing to ensure a robust and responsive design. 
@@ -136,7 +135,7 @@ Autocomplete not working. Miss-use of autocomplete, I moved autocomplete=“on�
 - **User Story:** As a user who needs additional help or has specific questions, I want to be able to fill out and send a simple contact form.
 - **Analysis:** The contact page offers a straightforward form for visitors to leave their name, email, and message. Instructions are clear, and the options to clear or send the message are readily accessible, satisfying the user story's criteria.
 
-#### Conclusions
+
 The website effectively meets the criteria laid out in the user stories. The information is presented clearly, navigation is straightforward, and visitors are encouraged to engage further, whether by learning through the guide or reaching out via the contact page. The site's design and content strategy is aligned with the goals of educating visitors and encouraging the adoption of Bokashi composting.
 
 ### Functionality test (manual testing)
@@ -333,6 +332,19 @@ Passed without errors
 ![Contact page - desktop](readme-images/lighthouse-contact-mobile.png)
 </details>
 
+## Deployment
+
+The site is deployed using GitHub Pages - [Bokashi simplified](https://behemot-biz.github.io/bokashi/).
+
+To Deploy the site using GitHub Pages:
+
+1. Login (or signup) to Github.
+2. Go to the repository for this project, [behemot-biz/bokashi](https://github.com/behemot-biz/bokashi).
+3. Click the settings button.
+4. Select pages in the left hand navigation menu.
+5. From the source dropdown select main branch and press save.
+6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
+
 ## Technologies
 
 **Programs used:**
@@ -345,7 +357,7 @@ Passed without errors
 - Chrome
 - Safari
 
-**Technologies:**
+**Languages:**
 - HTML 5
 - CSS 3
 
@@ -378,18 +390,21 @@ Forskning.se, [Komposten kan bli en klimatbov](https://www.forskning.se/2022/04/
 Header and navigation copied from the CI project "Love Running", modified to fit my purposes<br>
 Footer copied from the CI project "Love Running", modified to fit my purposes<br>
 Css for header and footer as well as for the hero section was copied from the CI project "Love Running", modified to fit my purposes.
+The initial sections for ‘*’ and ‘body’ is copied from love running but it would have been there any way since its common practice.
 
 ### Tutorials used for improving the site
 
 **Kevin Powell youtube**<br>
-[Learn CSS Grid the easy way](https://www.youtube.com/watch?v=rg7Fvvl3taU)<br>
-[Build a responsive card - HTML and CSS tutorial](https://www.youtube.com/watch?v=51DbAwcmqD8)<br>
+[Learn CSS Grid the easy way](https://www.youtube.com/watch?v=rg7Fvvl3taU) For testimonial cards layout and for step-by-step guide<br>
+[Build a responsive card - HTML and CSS tutorial](https://www.youtube.com/watch?v=51DbAwcmqD8) For testimonial cards<br>
 
 **Refreshing my html knowledge**<br>
 [W3Schools](https://www.w3schools.com/)
 
-**Readme**<br>
+**Readme guidance**<br>
 [README.md - How, What and When?](https://www.youtube.com/watch?v=l1DE7L-4eKQ) 
+[Kera Cudmore's readme examples](https://github.com/kera-cudmore/readme-examples) I copied the deployment section from this example.
+
 
 **Special thanks**<br>
 Special thanks to my husband Jimi for patience and support with the copywriting and proofreading of all texts both site and readme.<br>
