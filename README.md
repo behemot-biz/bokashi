@@ -139,47 +139,96 @@ The website effectively meets the criteria laid out in the user stories. The inf
 
 ### Functionality test (manual testing)
 
-I created cases to verify the functionality and user experience. These test cases are aligned with the user stories for the homepage, guide page, and contact page. 
-
-#### Test cases
-
-| Test Case ID | Objective | Expected Result | Steps | Pass/Fail |
-|--------------|-----------|-----------------|-------|-----------|
-| **Home/start page** |
-| TC 1 | Verify Homepage Load | Homepage loads successfully with all elements properly displayed. | 1. Enter the website URL.<br>2. Observe homepage load. | Pass |
-| TC 2 | Content | Content is available and readable. | 1. Review homepage content.<br>| Pass |
-| TC 3 | Use the hero CTA | CTA button navigates to the step-by-step guide in the guide page. | 1. Click the 'Take me to the guide' button. | Pass |
-| | | | | |
-| **Guide page** | | | | |
-| TC 4 | Clarity of Step-by-Step Instructions | Guide is easy-to-follow with clear instructions and relevant images. | 1. Read the guide.<br>2. Check text clarity and image relevance. | Pass |
-| TC 5 | Research link below step-by-step guide | The link to the external research article opens in a new tab. | 1. Klick the Source link.<br>2. Check that the correct article opens in a new tab. | Pass |
-| | | | | |
-| **Contact page** | | | | |
-| TC 6 | Verify Contact Form Functionality | Form submission is successful with confirmation page displayed. | 1. Navigate to contact page.<br>2. Fill in and submit the form. | Pass |
-| TC 7 | Form Validation Checks | Form provides feedback for incorrect or incomplete inputs. | 1. Submit form with missing fields.<br>2. Test email validation with invalid input. | Pass |
-| TC 8 | Reset Contact Form Functionality | Form fields are cleared when the clear message button is clicked. | 1. Fill in the form fields with text.<br>2. Click the 'Clear Message' button. | Pass |
-| Footer |test on all pages | | | |
-| TC 9 | Verify social media Links | Each link opens in a new tab without errors. | 1. Scroll to the footer.<br>2. Click the icon links. (test all four links)<br>3. Verify that a new tab is opened with the corresponding social media platform | Pass |
-| | | | | |
-| **Header** |test on all pages | | | |
-| TC10 | Verify Logo Link to Homepage | Clicking the logo from any page redirects to the homepage in the same tab without errors. | 1. Navigate to each page on the website.<br>2. Click on the logo at the top of the page.<br>3. Verify that you are redirected to the homepage. | Pass |
-| | | | | |
-|  **Navigation** |test on all pages | | | |
-| TC 11 | Verify Page Navigation | Seamless navigation to/from all pages. | 1. Click 'Home' link.<br>2. 'Home' page opens (or reloads if it is the current page).<br>1. Click 'Guide' link.<br>2. 'Guide' page opens (or reloads if it is the current page)<br>1. Click 'Contact' link.<br>2. 'Contact' page opens (or reloads if it is the current page) | Pass |
-| | | | | |
-| **Mobile Navigation** |test on all pages | | | |
-| TC 12| Verify Mobile Navigation Menu Expansion | The navigation pane expands upon tapping the hamburger icon. | 1. On a mobile device, tap the hamburger icon.<br>2. Observe the navigation pane's response. | Pass |
-| TC 13 | Verify Mobile Navigation Link Functionality | Each link in the navigation pane correctly redirects to the corresponding page. | 1. Expand the mobile navigation menu.<br>2. Tap each link and verify redirection. | Pass |
-| TC 14 | Verify Mobile Navigation Menu Collapse | The navigation pane collapses upon tapping the hamburger icon a second time or tapping a link. | 1. If already expanded, tap the hamburger icon again.<br>2. Alternatively, tap a link and check if the pane collapses after redirection. | Pass |
-| | | | | |
-| **Responsivness** | | | | |
-| TC 15 | Responsiveness on Different Devices | Website is responsive and user-friendly on all tested devices. | 1. Open on various devices.<br>2. Navigate and observe layout/usability. | Pass |
-| | | | | |
-| **Compatibility** | | | | |
-| TC 16 | Browser Compatibility Test | Website is fully functional and displays consistently across browsers. | 1. Access using different browsers.<br>2. Check functionality and display. | Pass |
+I created the cases below to verify the functionality of each page in both desktop and mobile layout.
 
 
-### Conclusions
+**Home/Start page desktop layout**
+|Feature|Expected result|Action|Status|
+| --- | --- | --- | --- | 
+|Logo|Reloads page|Click logo|Pass|
+|Navigation|Reloads page|Click home in navigation|Pass|
+|Navigation|Loads guide page|Click guide in navigation|Pass|
+|Navigation|Loads contact page|Click contact in navigation|Pass|
+|Hero CTA|Loads guid page-step guide section|Click CTA button|Pass
+|Footer|Opens Facebook in new tab|Click Facebook icon|Pass|
+|Footer|Opens X in new tab|Click X icon|Pass|
+|Footer|Opens Youtube in new tab|Click Youtube icon|Pass|
+|Footer|Opens Instagram in new tab|Click Instagram icon|Pass|
+
+**Guide page desktop layout**
+|Feature|Expected result|Action|Status|
+| --- | --- | --- | --- | 
+|Logo|Loads start page|Click logo|Pass|
+|Navigation|Loads start page|Click home in navigation|Pass|
+|Navigation|Reloads page|Click guide in navigation|Pass|
+|Navigation|Loads contact page|Click contact in navigation|Pass|
+|Link to source|Opens link in new tab|Click link in last section of page|Pass|
+|Footer|Opens Facebook in new tab|Click Facebook icon|Pass|
+|Footer|Opens X in new tab|Click X icon|Pass|
+|Footer|Opens Youtube in new tab|Click Youtube icon|Pass|
+|Footer|Opens Instagram in new tab|Click Instagram icon|Pass|
+
+**Contact page desktop layout**
+|Feature|Expected result|Action|Status|
+| --- | --- | --- | --- | 
+|Logo|Loads start page|Click logo|Pass|
+|Navigation|Loads start page|Click home in navigation|Pass|
+|Navigation|Loads guide page|Click guide in navigation|Pass|
+|Navigation|Reloads page|Click contact in navigation|Pass|
+|Form|Sends data to CI formdump|Fill out all fields, click send message|Pass|
+|Form-empty field|Message indicates empty field, message not sent|Leave form field blank, click send message|pass|
+|Form-not email address|Message indicates not an email address, message not sent|Input text in email form field , click send message|pass|
+|Footer|Opens Facebook in new tab|Click Facebook icon|Pass|
+|Footer|Opens X in new tab|Click X icon|Pass|
+|Footer|Opens Youtube in new tab|Click Youtube icon|Pass|
+|Footer|Opens Instagram in new tab|Click Instagram icon|Pass|
+
+**Home/Start page mobile layout**
+|Feature|Expected result|Action|Status|
+| --- | --- | --- | --- | 
+|Logo|Reloads page|Click logo|Pass|
+|Mobile navigation|Expands menu|Click burger icon|Pass|
+|Mobile navigation|Colapses menu|Click burger icon|Pass|
+|Mobile navigation|Reloads page|Click home in navigation|Pass|
+|Mobile navigation|Loads guide page|Click guide in navigation|Pass|
+|Mobile navigation|Loads contact page|Click contact in navigation|Pass|
+|Hero CTA|Loads guid page-step guide section|Click CTA button|Pass
+|Footer|Opens Facebook in new tab|Click Facebook icon|Pass|
+|Footer|Opens X in new tab|Click X icon|Pass|
+|Footer|Opens Youtube in new tab|Click Youtube icon|Pass|
+|Footer|Opens Instagram in new tab|Click Instagram icon|Pass|
+
+**Guide page mobile layout**
+|Feature|Expected result|Action|Status|
+| --- | --- | --- | --- | 
+|Logo|Loads start page|Click logo|Pass|
+|Mobile navigation|Expands menu|Click burger icon|Pass|
+|Mobile navigation|Colapses menu|Click burger icon|Pass|
+|Mobile navigation|Loads start page|Click home in navigation|Pass|
+|Mobile navigation|Reloads page|Click guide in navigation|Pass|
+|Mobile navigation|Loads contact page|Click contact in navigation|Pass|
+|Link to source|Opens link in new tab|Click link in last section of page|Pass|
+|Footer|Opens Facebook in new tab|Click Facebook icon|Pass|
+|Footer|Opens X in new tab|Click X icon|Pass|
+|Footer|Opens Youtube in new tab|Click Youtube icon|Pass|
+|Footer|Opens Instagram in new tab|Click Instagram icon|Pass|
+
+**Contact page mobile layout**
+|Logo|Loads start page|Click logo|Pass|
+| --- | --- | --- | --- | 
+|Mobile navigation|Expands menu|Click burger icon|Pass|
+|Mobile navigation|Colapses menu|Click burger icon|Pass|
+|Mobile navigation|Loads start page|Click home in navigation|Pass|
+|Mobile navigation|Loads guide page|Click guide in navigation|Pass|
+|Mobile navigation|Reloads page|Click contact in navigation|Pass|
+|Form|Sends data to CI formdump|Fill out all fields, click send message|Pass|
+|Form-empty field|Message indicates empty field, message not sent|Leave form field blank, click send message|pass|
+|Form-not email address|Message indicates not an email address, message not sent|Input text in email form field , click send message|pass|
+|Footer|Opens Facebook in new tab|Click Facebook icon|Pass|
+|Footer|Opens X in new tab|Click X icon|Pass|
+|Footer|Opens Youtube in new tab|Click Youtube icon|Pass|
+|Footer|Opens Instagram in new tab|Click Instagram icon|Pass|
+
 
 The test cases were carried out on following devices/browsers: 
 
