@@ -345,6 +345,26 @@ To Deploy the site using GitHub Pages:
 5. From the source dropdown select main branch and press save.
 6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
 
+### Local Development
+
+#### How to Fork
+
+To fork the repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, [behemot-biz/bokashi](https://github.com/behemot-biz/bokashi).
+3. Click the Fork button in the top right corner.
+
+#### How to Clone
+
+To clone the repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, [behemot-biz/bokashi](https://github.com/behemot-biz/bokashi).
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
 ## Technologies
 
 **Programs used:**
@@ -404,7 +424,6 @@ The initial sections for ‘*’ and ‘body’ is copied from love running but 
 **Readme guidance**<br>
 [README.md - How, What and When?](https://www.youtube.com/watch?v=l1DE7L-4eKQ) 
 [Kera Cudmore's readme examples](https://github.com/kera-cudmore/readme-examples) I copied the deployment section from this example.
-
 
 **Special thanks**<br>
 Special thanks to my husband Jimi for patience and support with the copywriting and proofreading of all texts both site and readme.<br>
